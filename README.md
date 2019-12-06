@@ -1,62 +1,69 @@
-# [Start Bootstrap - Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/05/Bootstrap-Resume-CV-Template-Pillar-Pormo.jpg" alt="Bootstrap 4 Resume/CV Template for Developers" /></a>
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## Theme Details & Demo
 
-## Preview
+**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/
 
-[![Landing Page Preview](https://startbootstrap.com/assets/img/templates/landing-page.jpg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+Pillar is a **free Bootstrap 4 resume/CV template** I made for developers. Built on **Bootstrap 4 and SASS**, it's quick and easy to change the template styling. This template is designed to **help you with your job hunting** and **boost your chances of getting the web development job you want**!
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+**Want to have a printable version?** We’ve released a [free Sketch template](https://themes.3rdwavemedia.com/resources/sketch-template/pillar-sketch-sketch-resume-template-for-developers/) for this theme. [Download Now](https://themes.3rdwavemedia.com/resources/sketch-template/pillar-sketch-sketch-resume-template-for-developers/)
 
-## Status
+<a href="https://themes.3rdwavemedia.com/resources/sketch-template/pillar-sketch-sketch-resume-template-for-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/12/pillar-theme-sketch-template-promo.png" alt="Pillar Sketch - Sketch Resume/CV Template for Developers" /></a>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-landing-page/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-landing-page.svg)](https://www.npmjs.com/package/startbootstrap-landing-page)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page?type=dev)
+## Author & License
 
-## Download and Installation
+This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/landing-page/)
-* Install via npm: `npm i startbootstrap-landing-page`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-landing-page)
+If you'd like to **use the template without the footer attribution**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/)
 
-## Usage
+#### Follow Xiaoying
 
-### Basic Usage
+[Twitter](https://twitter.com/3rdwave_themes)
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+[Facebook](https://www.facebook.com/3rdwavethemes/)
 
-### Advanced Usage
+[Dribbble](https://dribbble.com/Xiaoying)
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+[Medium](https://medium.com/@3rdwave_themes)
 
-## Bugs and Issues
+[Linkedin](https://uk.linkedin.com/in/xiaoying)
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
 
-## Custom Builds
+## Latest Version
+**v1.0.1** - 23 July 2018
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/?target=changelog)
 
-## About
+## Colour Schemes
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+#### Colour 1 (pillar-1.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/pillar-theme-1.jpg" width="400" alt="Pillar color 1" />
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+#### Colour 2 (pillar-2.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/pillar-theme-2.jpg" width="400" alt="Pillar color 2" />
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+#### Colour 3 (pillar-3.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/pillar-theme-3.jpg" width="400" alt="Pillar color 3" />
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+#### Colour 4 (pillar-4.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/pillar-theme-4.jpg" width="400" alt="Pillar color 4" />
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+#### Colour 5 (pillar-5.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/pillar-theme-5.jpg" width="400" alt="Pillar color 5" />
 
-## Copyright and License
+#### Colour 6 (pillar-6.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/pillar-theme-6.jpg" width="400" alt="Pillar color 6" />
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+## Features
+
+-  Fully Responsive
+-  HTML5 + CSS3
+-  Built on Bootstrap 4
+-  **SCSS** source files included
+-  6 Colour Schemes
+-  1000+ FontAwesome 5 icons
+-  Compatible with all modern browsers
+
+## Credits
+- [Bootstrap](http://getbootstrap.com/)
+- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
