@@ -1,23 +1,320 @@
----
-layout: default
----
-<div class="container">
-  {% include header.html %}
-  <div class="container-block">
-    <div class="sidebar">
-      {% include contact.html %}
-      {% include languages.html %}
-      {% include education.html %}
-      {% include skills.html %}
-      {% include fork.html %}
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Artur Dossatayev's CV</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artur Dossatayev's CV">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-6.css">
+</head> 
 
-    <div class="main">
-      {% include career-profile.html %}
-      {% include experience.html %}
-      {% include publications.html %}
-      {% include projects.html %}
-      {% include volunteering.html %}
+<body>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" style = "width: 150px" />
+                <h1 class="name">Artur Dossatayev</h1>
+                <h3 class="tagline">Quant</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto:artur.dossatayev@gmail.com">artur.dossatayev@gmail.com</a></li>
+                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:+35796288881">+357 96 288881</a></li>
+                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/artur-dossatayev-860b53165/" target="_blank">Linkedin</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="#" target="_blank">github.com/darthur11</a></li>
+                    <li class="website"><i class="fa-solid fa-globe"></i><a href="./files/tti.pdf" target="_blank">TTI test</a></li>
+                    <li class="website"><i class="fa-solid fa-globe"></i><a href="./files/CV_Quant_Artur_Dossatayev.pdf" target="_blank">Download CV</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">PhD candidate in Data Science</h4>
+                    <h5 class="meta">IITU</h5>
+                        <div class="time">2022 - Present</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Financial analyst</h4>
+                    <h5 class="meta">CFA Institute</h5>
+                    <div class="time">2016 - Present</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">MSc in Telecom</h4>
+                    <h5 class="meta">AUPET, GPA - 3.81/4</h5>
+	                    <div class="time">2013 - 2015</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">BSc in Economics in Telecom</h4>
+                    <h5 class="meta">AUPET, GPA - 3.81/4</h5>
+                    <div class="time">2009 - 2013</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Russian <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(C1 Level)</span></li>
+                    <li>Kazakh <span class="lang-desc">(A2 Level)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Options trading</li>
+                    <li>Swimming</li>
+                    <li>Fitness</li>
+                    <li>Reading/Learning</li>
+                    <li>Nutrition</li>
+                    <li>DJ-ing</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Career Profile</h2>
+                <div class="summary">
+                    <p>Data-driven Quantitative Developer with extensive experience in algo trading, risk modeling, market microstructure
+analysis, and liquidity management. Strong proficiency in Python, Rust, SQL, and big data processing tools like Apache
+Spark and Neo4j. Proven ability to develop and deploy high-performance trading systems, fraud detection models, and
+risk management frameworks. Passionate about leveraging statistical arbitrage strategies, backtesting, and financial
+modeling to optimize trading performance. Open to quantitative finance, trading, and risk analysis roles in the UAE.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Experiences</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Quantitative developer/analyst</h3>
+                            <div class="time">Nov 2022 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Kontone, Remote</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Engineered cross-exchange statistical arbitrage models to exploit cryptocurrency market inefficiencies. These models utilized real-time bid-ask spread monitoring to identify and profit from transient pricing discrepancies.</li>
+                        <li>Enhanced trade execution by implementing a price weighting strategy utilizing limit orders as a maker, improving overall trading performance.</li>
+                        <li>Played a key role in the collaborative implementation of a comprehensive trading framework, working closely with developers and analysts to bring the system online.</li>
+                        <li>Enhanced order routing algorithms to minimize potential slippage and improve execution efficiency.</li>
+                        <li>Developed a robust and modular Python framework for algorithmic cryptocurrency trading. The framework implements a workflow with efficient data processing and real-time execution, with inter-module delays consistently below 5 milliseconds and sub-second decision-making capabilities</li>
+                        <li>Developed and deployed algo trading strategies using the QuantConnect platform with yearly ROI of 10%.</li>
+                        <li>Utilized the IB API to automate trading activities and execute trades seamlessly</li>
+                        <li>Applied Black-Scholes and Heston models in conjunction with event-driven backtesting (eliminating forward looking bias) to estimate and compare the performance characteristics of quantitative options strategies.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Data real-time analytics engineer</h3>
+                            <div class="time">Aug 2023 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">ZFX, Remote</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Developed & deployed a real-time anti-fraud detection system using Neo4j, enabling high-speed 1-3 second query response times for rapid customer connectivity analysis.</li>
+                        <li>Successfully processed multi-terabyte liquidity providers order flow (L3) data using Apache Spark to create a compressed (x10) top book (L1) dataset for further analysis by the risk & trading department.</li>
+                        <li>Developed a price delay analysis dataset by merging liquidity provider and in-house tick data in collaboration with risk and trading teams, leading to the successful elimination of arbitrage exploits.</li>
+                        <li>Pioneered broker rebates analysis & visualization for optimizing company expenses, which helped to optimize unprofitable branches by 20%</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Data Engineer</h3>
+                            <div class="time">Nov 2022 - Jul 2023</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Coins.ph, Phillipines</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>During a challenging period of layoff, provided comprehensive support to the team's projects to ensure their smooth and effective progress. Offering my expertise and assistance, demonstrated my strong commitment to teamwork, adaptability, and work ethic.</li>
+                        <li>Developed data model with 20+ datasets for newly implemented crypto exchange within our company.</li>
+                        <li>Assessed the performance of top 5 crypto liquidity providers within our platform by analyzing their trading volume and top book (L1 data), providing insights into their contribution to overall platform liquidity.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Data Finance Engineer/Team lead</h3>
+                            <div class="time">Oct 2021 - Oct 2022</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Coins.ph, Phillipines</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>As a skilled team coordinator, fostered knowledge sharing and coordinated team activities.</li>
+                        <li>Implemented a finance reconciliation framework based on Spark streaming, resulting in more efficient and accurate financial operations. Streaming approach decreased time to action from 1 day to 30 minutes.</li>
+                        <li>Delivered reporting of 10+ charts for Ripple blockchain network, which supported managerial decisions.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Business Intelligence Engineer</h3>
+                            <div class="time">Sep 2020 - Oct 2021</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Coins.ph, Phillipines</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Completed migration between <b>BI tools</b>. Migrated more than 1000 charts in 2 months.</li>
+                        <li>Automated process of adding of new cryptocurrencies, decreases workload for up to 80%.</li>
+                        <li>ID verification pipeline partially automated, manual workload decreased for up to 15%.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Business Intelligence analyst</h3>
+                            <div class="time">Jul 2018 - Sep 2020</div>
+                        </div><!--//upper-row-->
+                        <div class="company">OLX Group, Kazakhstan</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Optimized user banning process, as a result, saved up to 50 human-hours per month.</li>
+                        <li>Performed <b>several trainings for employees</b> on how to use <b>MS Excel</b> and self-service system.</li>
+                        <li>Created 2 <b>Shiny dashboards</b> for interaction with DB as part of self-service system</li>
+                        <li>Implemented fully automated calculation of plans for the B2B sales department</li>
+                        <li>Designed several business cases for potential projects which could increase business metrics</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Compensation & benefits specialist</h3>
+                            <div class="time">Mar 2016 - Apr 2018</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Home Credit Bank, Kazakhstan</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Automated bonus calculation process for 3000+ employees, as a result decreased error rate to 0.5%, saved up to 16 human-hours per month.</li>
+                        <li>Optimized complex queries in <b>PL/SQL</b>, execution time decreased up to 10 times.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Research Associate</h3>
+                            <div class="time">Oct 2013 - Feb 2016</div>
+                        </div><!--//upper-row-->
+                        <div class="company">JSC Kazakhtelecom, Kazakhstan</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Automated several reports using <b>VBA</b>, decreased error rate and saved up to 20 human-hours per month.</li>
+                        <li>Developed several researches, including implementation costs.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Professional freelancer</h3>
+                            <div class="time">Oct 2013 - Feb 2015</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Upwork</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Developed a fully automated reporting system for a Business on Amazon Marketplace using <b>R, Python, MySQL and MWS API</b>.</li>
+                        <li>Designed business case for coffee producer and provided impact of risk on metrics using <b>Monte Carlo simulation</b>.</li>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-archive"></i></span>Projects</h2>
+                <div class="item">
+                    <span class="project-title">Divergence indicator and trend indicator (Project)</span><br>
+                    <span class="project-tagline">Built a divergence and trend indicators and the project around it to predict future price movements. Added features to pull price data from yahoo and show results in the charts. Libraries used in the project: Rcpp to use C++ code in R, ggplot to make great charts. As a result of the script we have 2 charts - one with pivot points and one with trendline. (<b><a href="https://github.com/darthur11/Divergence-strategy/blob/main/chart.png" target="_blank">demo</a></b>)</span>
+                    
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Blockchain data analysis (Project)</span><br>
+                    <span class="project-tagline">Built SQL script to gather data from Polygon blockchain on NFT sells on OpenSea platform. Splitted script into several logical parts to make it clear for everyone. As a result of the script we have got the list of transactions with all related information on buyer, seller, transaction_hash, amounts in crypto and USD, etc. (<b><a href="https://www.youtube.com/watch?v=lMe75FZIL_0" target="_blank">demo</a></b>)</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Options backtesting software (Project)</span><br>
+                    <span class="project-tagline">Built project for conducting Options backtesting. Since prices on options data are quite high, there is an idea to do it for free. So, it has split into several parts: portfolio, strategy and Black-Scholes model pricing part. As a result, using just the underlying instrument price, pulled from any free source, and BlackScholes model for options pricing it’s possible to backtest trading strategies. (<b><a href="https://github.com/darthur11/OptionsBacktesting" target="_blank">link</a></b>)</span>
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+                    <div class="item">
+                        <div class="level-title">Languages:</div>
+                        <div class="level-skills"><b>SQL, Python, Rust</b>, R, Julia</div>
+                    </div>  
+                    <div class="item">
+                        <div class="level-title">DBs:</div>
+                        <div class="level-skills"><b>Postgres</b>, MySQL, Clickhouse, Redis </div>
+                    </div>
+                    <div class="item">
+                        <div class="level-title">Other:</div>
+                        <div class="level-skills"><b>Strategies backtesting, Algorithmic trading, Blockchain analysis</b></div>
+                    </div>              
+                    <div class="item">
+                        <div class="level-title">Engineering:</div>
+                        <div class="level-skills">Git, Docker-compose, Kubernetes, Linux, Network architecture, OSI model</div>
+                    </div>
+                    <div class="item">
+                        <div class="level-title">Spreadsheets:</div>
+                        <div class="level-skills">Excel, Google Sheets </div>
+                    </div>  
+                    <div class="item">
+                        <div class="level-title">Cloud providers:</div>
+                        <div class="level-skills">AWS [S3, Athena, EC2, RDS, Redshift], GCP [BigQuery, GCS, Dataproc]</div>
+                    </div>
+                    <div class="item">
+                        <div class="level-title">Soft skills:</div>
+                        <div class="level-skills"><b>Leadership, Teamwork, Communication, Problem-solving, Adaptability</b> </div>
+                    </div>        
+                    <div class="item">
+                        <div class="level-title">Orchestration tools:</div>
+                        <div class="level-skills"><b>Apache Airflow, Dagster</b> </div>
+                    </div>        
+                    <div class="item">
+                        <div class="level-title">Distributed computing:</div>
+                        <div class="level-skills"><b>Apache Spark</b> </div>
+                    </div>
+
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
     </div>
-  </div>
-</div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
+</body>
+</html> 
+
